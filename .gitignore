@@ -14,3 +14,8 @@
 
 #Unity3D Generated File On Crash Reports
 sysinfo.txt
+
+Assets/*.mp3*
+Assets/Audio Spectrum
+Assets/MidiJack
+Assets/UniRx
