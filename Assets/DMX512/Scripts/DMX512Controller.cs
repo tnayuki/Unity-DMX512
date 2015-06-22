@@ -109,8 +109,8 @@ public class DMX512Controller : MonoBehaviour {
 		dgram[11] = 14;
 		dgram[12] = 0;
 		dgram[13] = 0;
-		dgram[14] = 0;
-		dgram[15] = 0;
+		dgram[14] = (byte)(universe & 0xff);
+		dgram[15] = (byte)((universe >> 8) & 0x7f);
 		dgram[16] = 2;
 		dgram[17] = 0;
 		
